@@ -1,0 +1,245 @@
+* {    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navlogo{
+    background-image: url("amazon\ logo.jpg");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    border:2px solid transparent
+}
+#navlogo:hover{
+    border: 2px solid white;
+
+}
+#address{
+    border: 2px solid transparent;
+}
+#address:hover{
+    border: 2px solid white;
+    
+} 
+
+#add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 10px;
+
+}
+#add2{
+font-size: 1rem;
+margin-left: 3px;
+
+}
+#icon{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    border:2px solid transparent;
+}
+.search:hover{
+    border: 2px solid orange;
+}
+#select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius:4px ;
+    border: none;
+}
+#inputbox{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+
+}
+#searchicon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+   
+    border-bottom-right-radius: 4px;
+    border-top-right-radius:4px ;
+    color: black;
+
+    
+}
+#signin{
+    border: 2px solid transparent;
+}
+#signin:hover{
+border:2px solid white;
+}
+span{
+    font-size: 0.7rem;
+}
+.navsecond{
+    font-size:0.85rem;
+}
+#return{
+    border:2px solid transparent;
+}
+#return:hover{
+    border:2px solid white;
+}
+#cart i{
+    font-size: 30px;
+}
+#cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+}
+#cart:hover{
+    border: 2px solid white;
+}
+#panel{
+    width: 100%;
+    height: 40px;
+    background-color:#222f3d;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+#center{
+    width: 60%;
+}
+/* body section */
+.herosection{
+    background-image:url("image1.jpg") ;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+#heromessage{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 0.85rem;
+    width: 95%;
+    margin-bottom: 60px;
+   
+
+    
+}
+#heromessage a{
+    color:#007185 ;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+
+}
+.box{
+    height: 400px;
+    /* border: 2px solid black; */
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+   
+    
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:#007185;
+}
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.panel1{
+    color: white;
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.panel2{
+    background-color: #222f3d;
+    color: #dddddd;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+ul{
+   margin-top: 50px;
+   line-height: 30px;
+}
+.panel3{
+    height: 70px;
+    background-color: #222f3d ;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    border-top: 2px solid white;
+    
+}
+.last-image{
+background-image: url("amazon\ logo.jpg"); 
+background-size:contain;
+
+height: 50px;
+width: 92px;
+border: 3px solid black;
+border-radius: 10%;
+margin-right: 15px;;
+
+}
+
